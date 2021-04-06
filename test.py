@@ -11,7 +11,7 @@ calendar = GoogleCalendar(os.getenv('MAIL'))
 start = (22/Apr/2021)[12:00]
 end = start + 2 * hours
 event = Event('Meeting',
-              start=start,
-              end=end)
+			  start=start,
+			  end=end)
 
 calendar.add_event(event)
